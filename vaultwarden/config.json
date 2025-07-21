@@ -1,4 +1,17 @@
 {
-  "name": "vaultwarden",
-  "version": "0.1.0"
+  "name": "Vaultwarden",
+  "version": "1.0.0",
+  "slug": "vaultwarden",
+  "description": "A Bitwarden-compatible password manager",
+  "url": "https://github.com/dani-garcia/vaultwarden",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": false,
+  "panel_icon": "mdi:lock",
+  "arch": [
+    "amd64",
+    "aarch64"
+  ],
+  "init": false,
+  "image": "ghcr.io/dani-garcia/vaultwarden:latest"
 }

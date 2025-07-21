@@ -1,0 +1,1 @@
+FROM ghcr.io/dani-garcia/vaultwarden:latest
