@@ -2,7 +2,7 @@
   "name": "Vaultwarden",
   "version": "1.0.0",
   "slug": "vaultwarden",
-  "description": "A Bitwarden-compatible password manager",
+  "description": "A Bitwarden-compatible password manager, written in Rust.",
   "url": "https://github.com/dani-garcia/vaultwarden",
   "startup": "services",
   "boot": "auto",
@@ -13,5 +13,8 @@
     "aarch64"
   ],
   "init": false,
+  "ports": {
+    "80/tcp": 8222
+  },
   "image": "ghcr.io/dani-garcia/vaultwarden:latest"
 }
