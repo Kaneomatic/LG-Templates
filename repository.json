@@ -1,0 +1,22 @@
+{
+  "name": "Community Umbrel HAOS Add-ons",
+  "url": "https://github.com/Kaneomatic/LG-Templates",
+  "maintainer": "Kaneomatic",
+  "addons": [
+    "immich",
+    "vaultwarden",
+    "uptime-kuma",
+    "linkwarden",
+    "watchtower",
+    "firefly-iii",
+    "mealie",
+    "audiobookshelf",
+    "overseerr",
+    "sonarr",
+    "radarr",
+    "lidarr",
+    "readarr",
+    "xteve",
+    "downloader"
+  ]
+}
