@@ -1,0 +1,17 @@
+{
+  "name": "Immich",
+  "version": "1.0.0",
+  "slug": "immich",
+  "description": "Self-hosted photo and video backup solution",
+  "url": "https://github.com/immich-app/immich",
+  "startup": "services",
+  "boot": "auto",
+  "ingress": false,
+  "panel_icon": "mdi:cloud",
+  "arch": [
+    "amd64",
+    "aarch64"
+  ],
+  "init": false,
+  "image": "ghcr.io/immich-app/immich-server:release"
+}
