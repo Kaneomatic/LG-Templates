@@ -16,5 +16,6 @@
   "ports": {
     "80/tcp": 8222
   },
-  "image": "ghcr.io/dani-garcia/vaultwarden:latest"
+  "image": "ghcr.io/dani-garcia/vaultwarden:latest",
+  "host_network": true
 }
