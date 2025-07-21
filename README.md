@@ -1,2 +1,2 @@
 # LG-Templates
-Games by Kane
+tests by Kane
